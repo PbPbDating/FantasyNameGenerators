@@ -7,6 +7,7 @@ Keep in mind when using the name generators, I usually generate 40 names at once
 
 
 ****--------HOW TO USE THE NAME GENERATOR--------****
+
 There are two steps to using this generator:
 1) Add your chunks, vowels, and consonants to the specific generator you want to use
 2) delete the '#' before the relevant print statement at the bottom
@@ -15,8 +16,11 @@ For more clarity on 1.
 Pick the name generator you want to use (detailed descriptions below). Right before the "def" statement, you will see that I have defined a bunch of lists. You can tell because it will look like this: 
 
 first_syllable = ["mer"]
+
 second_syllable_male = ["liano"]
+
 second_syllable_female = ["iti"]
+
 where there is a name, then an =, then some of these guys []
 
 This is where the bulk of your work will be. I have left in strings only as examples. For the name generator to work, you need to fill out those lists. When you fill them out, be sure to always put your string in quotes and have a comma after. A final list might look like:
@@ -25,7 +29,7 @@ internal_stem = ["ou","ma","a","e","i","o","ä","an","en","in","on","än","am","
 
 Note: there is no comma after the last string.
 
-I include recommendations for adding syllabels in the descriptions of each generator below. 
+I include recommendations for adding syllables in the descriptions of each generator below. 
 
 For more clarity on 2:
 After you pick which generator you are using and have added everything to the lists, scroll down to the bottom. You will see five lines of code that each begin with "print." Delete the # before the relevant line. If you are making names by syllables with gendered endings, then remove the # before #print(makeNameBySyllableGenderedEnding(40))
